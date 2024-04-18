@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="./image/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="./style.css">
+
+	<title>Delete account</title>
+</head>
+
+<body>
+	<div class="container">
+		<div class="body">
+			<p class="title">Видалення акаунту з мобільного застосунку "Games Hub"</p>
+			<p class="text">Для того щоб вдалити свій акаунт, Вам потрібно ввести свій логін і пароль від застосунку
+				"GamesHub"!</p>
+			<p class="text">Ви можете видалити:</p>
+			<ul>
+				<li class="li">Тільки свої особисті данні (логін, пароль, e-mail)</li>
+				<li class="li">Особисті данні та всі доданні вами ігри</li>
+			</ul>
+			<form class="form">
+				<input class="input" type="text" placeholder="логін" required>
+				<input class="input" type="password" placeholder="пароль" required>
+				<div>
+					<input type="radio" name="data" id="person" value="person" checked />
+					<label class="text" for="person">Особисті данні</label>
+				</div>
+				<div>
+					<input type="radio" name="data" id="all" value="all" />
+					<label class="text" for="all">Особисті данні та ігри</label>
+				</div>
+				<div>
+					<button class="button" type="submit">Видалити акаунт</button>
+				</div>
+			</form>
+		</div>
+	</div>
+	<!-- <script src="./src/js/script.js"></script> -->
+	<!-- додати alert підтвердження, що дані видалені -->
+</body>
+
+</html>
